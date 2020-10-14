@@ -8,6 +8,24 @@
 <body>
     <div id="root"></div>
 
+    <form name="selectForm">
+        <p>
+            <label for="musicTypes">Choose Music Type</label>
+            <select id="musicTypes" name="musicTypes" multiple="multiple">
+                <option value="" selected>R&B</option>
+                <option value="">Jazz</option>
+                <option value="">Blues</option>
+                <option value="">New Age</option>
+                <option value="">Classical</option>
+                <option value="">Opera</option>
+            </select>
+        </p>
+        <p> <input type="button" value="How many are selected?" id="btn">    </p>
+
+        <p id="numberSelected">Number of options selected: </p>
+
+    </form>
+
     <script src="index.js"></script>    
 </body>
 </html>
